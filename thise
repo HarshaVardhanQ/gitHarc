@@ -1,0 +1,15 @@
+pipepline{
+  agent any
+  stages{
+        stage('installation'){
+          steps{
+              echo "The software is installing, please wait/..."
+          }
+        }
+        stage("Deploying"){
+          steps{
+              echo "The software is deploying the product to ensure there is no problem for the customer"
+}
+}
+}
+}
